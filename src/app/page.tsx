@@ -4,7 +4,7 @@ import { LuLayoutDashboard, LuLayout } from 'react-icons/lu'
 
 export default function Home() {
   return (
-    <div className='h-screen p-8 flex flex-col justify-center items-center text-center gap-4'>
+    <div className='h-screen py-5 flex flex-col justify-center items-center text-center gap-4'>
       <header id="intro" className='space-y-2 py-auto md:py-auto lg:pt-2 w-[30rem] m-auto'>
         <div className='container flex max-w-[64rem] flex-col items-center gap-5'>
           <div className='border-2 rounded-full border-primary'>
