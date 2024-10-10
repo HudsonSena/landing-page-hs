@@ -1,5 +1,5 @@
 import type { Metadata } from 'next';
-import { Inter as FontSans } from 'next/font/google';
+import { Fira_Sans as FontSans } from 'next/font/google';
 import localFont from 'next/font/local';
 import { cn } from '@/lib/utils';
 
@@ -9,11 +9,12 @@ import './globals.css';
 
 const fontSans = FontSans({
   subsets: ['latin'],
+  weight: ['400', '500', '600', '700', '900'],
   variable: '--font-sans',
 })
 
 const fontHeading = localFont({
-  src: '../assets/fonts/CalSans-SemiBold.woff2',
+  src: '../assets/fonts/FiraSans-SemiBold.ttf',
   variable: '--font-heading',
 })
 
