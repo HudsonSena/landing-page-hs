@@ -1,10 +1,10 @@
 export function Footer() {
     return (
-        <footer id="contact" className="flex items-center justify-center">
-            <p className="text-xs">
-                Criado por <span className="text-primary">Hudson Sena</span>, com
+        <footer className="flex items-center justify-center p-5">
+            <p className="text-xs text-gray-950">
+                Criado por <strong>Hudson Sena</strong>, com
                 NextJs 14 e TailwindCss
             </p>
-        </footer>
+        </footer >
     )
 }

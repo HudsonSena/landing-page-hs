@@ -1,3 +1,5 @@
+import { Contact } from "./_components/contact";
+import { Experience } from "./_components/experience";
 import { Footer } from "./_components/footer";
 import { Formation } from "./_components/formation";
 import { Header } from "./_components/header";
@@ -9,6 +11,8 @@ export default function Home() {
       <Header />
       <Introduction />
       <Formation />
+      <Experience />
+      <Contact />
       <Footer />
 
     </div>
