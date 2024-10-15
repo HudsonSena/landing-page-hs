@@ -33,7 +33,7 @@ export function Experience() {
                 </p>
                 <ul className="flex flex-col gap-3">
                     {
-                        projects.map(item => <li className="w-full border-b-2 p-2 border-gray-300 flex flex-row gap-2" key={item}>
+                        projects.map(item => <li key={item.name} className="w-full border-b-2 p-2 border-gray-300 flex flex-row gap-2">
                             <p className="text-gray-500">{item.created}</p>
                             <div className="flex flex-col gap-0.5">
                                 <span className="font-semibold">{item.name}</span>
@@ -45,7 +45,7 @@ export function Experience() {
                                 <div className="flex flex-row flex-wrap gap-2">
                                     {
                                         item.tecnologies.map(tec =>
-                                            <span className="p-2 rounded-sm bg-gray-200">{tec}</span>
+                                            <span key={tec} className="p-2 rounded-sm bg-gray-200">{tec}</span>
                                         )
                                     }
                                 </div>
