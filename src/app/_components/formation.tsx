@@ -57,7 +57,7 @@ export function Formation() {
                     {
                         formations.map(item =>
 
-                            <div className="w-52 flex flex-col rounded-sm bg-gray-950 text-gray-200 p-3 justify-between text-xl relative">
+                            <div key={item.title} className="w-52 flex flex-col rounded-sm bg-gray-950 text-gray-200 p-3 justify-between text-xl relative">
                                 <span className="text-gray-400">{item.level}</span>
                                 <p className="font-semibold">{item.title}</p>
                                 <span className="text-gray-400">{item.university}</span>
