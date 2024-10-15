@@ -52,7 +52,7 @@ export function Experience() {
                                         )
                                     }
                                 </div>
-                                <a className="w-fit py-2 px-4 rounded-sm bg-primary text-gray-200 font" href={item.url} target="_blank">Acesse aqui</a>
+                                <a className="w-fit py-2 px-4 rounded-sm bg-primary text-gray-100 font-semibold" href={item.url} target="_blank">Acesse aqui</a>
                             </div>
                         </li>
                         )
