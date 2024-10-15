@@ -4,7 +4,7 @@ export function Contact() {
     return (
         <div id="contact" className="flex flex-row py-20 px-36 bg-gray-950 text-gray-100">
             <div className="w-[65%] flex flex-col gap-5">
-                <h1 className="text-9xl w-72 whitespace-break-spaces font-bold">CONTATO</h1>
+                <h1 className="text-9xl w-72 whitespace-break-spaces font-bold"><span className="text-primary">C</span>ONTATO</h1>
                 <p className="w-[620px]">Estou disponível para projetos freelancer e propostas de emprego para dev junior, para desenvolvimento de projetos FullStack em React e Node, e UX/UI Design.</p>
             </div>
             <div className="w-[35%]">
