@@ -11,7 +11,7 @@ export function Introduction() {
           alt="Imagem Diego"
         />
 
-        <div className="flex flex-col gap-2">
+        <div className="flex flex-col gap-2 font-sans text-gray-950">
           <h1 className="font-semibold text-xl lg:text-7xl sm:w-[510px] xl:w-[720px]">
             Desenvolvedor Front End & UX/UI Designer
           </h1>

@@ -14,7 +14,11 @@ export function Header() {
       <h1 className="font-bold text-xl text-gray-900">Hudson Sena</h1>
       <nav>
         <section className="MOBILE-MENU flex sm:hidden">
-          <LuMenu onClick={() => setIsNavOpen((prev) => !prev)} size={32} />
+          <LuMenu
+            onClick={() => setIsNavOpen((prev) => !prev)}
+            size={32}
+            className="text-gray-950"
+          />
 
           <div className={isNavOpen ? "showMenuNav" : "hideMenuNav"}>
             <div
@@ -22,16 +26,16 @@ export function Header() {
               onClick={() => setIsNavOpen(false)}
             >
               {" "}
-              <LuX size={32} />
+              <LuX size={32} className="text-gray-950" />
             </div>
-            <div className="flex flex-col justify-between text-xl">
+            <div className="flex flex-col justify-between text-xl text-gray-950">
               <a href="#formation">Formação</a>
               <a href="#experience">Experiência</a>
               <a href="#contact">Contato</a>
             </div>
           </div>
         </section>
-        <div className="DESKTOP-MENU hidden space-x-8 sm:flex">
+        <div className="DESKTOP-MENU hidden space-x-8 sm:flex text-gray-950">
           <a href="#formation">Formação</a>
           <a href="#experience">Experiência</a>
           <a href="#contact">Contato</a>
