@@ -3,7 +3,7 @@ import { LuLayoutDashboard } from "react-icons/lu";
 
 export function Introduction() {
   return (
-    <div className="px-5 flex flex-col gap-1 lg:p-36">
+    <div className="px-5 flex flex-col gap-1 lg:px-36 lg:py-20">
       <div className="flex flex-col items-center justify-center gap-3 lg:gap-10 sm:flex-row">
         <img
           className="w-[240px] h-[240px] object-contain rounded-[50%] shadow-lg"
@@ -55,7 +55,7 @@ export function Introduction() {
           </defs>
         </svg>
       </div>
-      <nav className="flex flex-col p-5 items-start gap-2 sm:flex-row sm:justify-between sm:items-center">
+      <nav className="flex flex-col p-5 items-start gap-2 sm:flex-row lg:gap-24 sm:items-center lg:justify-center">
         <a
           href="https://github.com/HudsonSena"
           target="_blank"

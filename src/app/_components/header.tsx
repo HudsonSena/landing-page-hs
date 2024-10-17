@@ -6,7 +6,10 @@ export function Header() {
   const [isNavOpen, setIsNavOpen] = useState(false);
 
   return (
-    <div id="header" className="flex flex-row items-center justify-between p-5">
+    <div
+      id="header"
+      className="flex flex-row items-center justify-between p-5 xl:px-36"
+    >
       {" "}
       <h1 className="font-bold text-xl text-gray-900">Hudson Sena</h1>
       <nav>
