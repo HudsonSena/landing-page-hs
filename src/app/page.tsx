@@ -9,10 +9,7 @@ import { Introduction } from "./_components/introdution";
 export default function Home() {
   return (
     <div className="flex flex-col">
-      <Header />
-      <Introduction />
-      <Formation />
-      <Footer />
+      <Experience />
       <a href="#header" className="fixed right-3 bottom-1">
         <LuArrowUp
           className="text-primary w-10 h-10 animate-bounce ..."
