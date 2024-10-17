@@ -11,6 +11,7 @@ export default function Home() {
     <div className="flex flex-col">
       <Header />
       <Introduction />
+      <Footer />
 
       <a href="#header" className="fixed right-3 bottom-1">
         <LuArrowUp

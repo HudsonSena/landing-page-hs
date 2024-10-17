@@ -3,8 +3,8 @@ import { LuLayoutDashboard } from "react-icons/lu";
 
 export function Introduction() {
   return (
-    <div className="flex flex-col p-5 text-gray-900 antialiased">
-      <div className="flex flex-col justify-between items-center">
+    <div className="px-5 flex flex-col gap-1 lg:p-36">
+      <div className="flex flex-col items-center gap-3 lg:justify-between sm:flex-row">
         <img
           className="w-[240px] h-[240px] object-contain rounded-[50%] shadow-lg"
           src="https://avatars.githubusercontent.com/u/107481318?v=4"
@@ -12,7 +12,7 @@ export function Introduction() {
         />
 
         <div className="flex flex-col gap-2">
-          <h1 className="font-semibold text-7xl w-[510px]">
+          <h1 className="font-semibold text-xl lg:text-7xl sm:w-[510px]">
             Desenvolvedor Front End & UX/UI Designer
           </h1>
           <p>Localizado no Rio Grande do Norte</p>
@@ -23,7 +23,7 @@ export function Introduction() {
           viewBox="0 0 135 139"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
-          className="md:hidden lg:visible"
+          className="hidden lg:block"
         >
           <rect
             x="110.613"
@@ -55,11 +55,11 @@ export function Introduction() {
           </defs>
         </svg>
       </div>
-      <nav className="flex flex-row items-center justify-around w-full">
+      <nav className="flex flex-col p-5 items-start gap-2 sm:flex-row sm:justify-between sm:items-center">
         <a
           href="https://github.com/HudsonSena"
           target="_blank"
-          className="text-xl font-sans flex justify-center items-center gap-2 text-gray-950 cursor-pointer active:scale-110"
+          className="text-xl font-sans flex justify-center items-center gap-2 text-gray-950 cursor-pointer active:scale-110 whitespace-nowrap"
         >
           <FaGithub size={20} />
           Github
@@ -67,14 +67,14 @@ export function Introduction() {
         <a
           href="https://www.linkedin.com/in/hudson-sena-890a72173/"
           target="_blank"
-          className="text-xl font-sans flex justify-center items-center gap-2 text-gray-950 cursor-pointer active:scale-110"
+          className="text-xl font-sans flex justify-center items-center gap-2 text-gray-950 cursor-pointer active:scale-110 whitespace-nowrap"
         >
           <FaLinkedin size={20} /> LinkedIn
         </a>
         <a
           href="https://jasper-creator-6b9.notion.site/b8fe19a7e4f94754ab9b109fc5089882?v=f0b15c8ca74f4fc49c235d8377e358f1&pvs=4"
           target="_blank"
-          className="text-xl font-sans flex justify-center items-center gap-2 text-gray-950 cursor-pointer active:scale-110"
+          className="text-xl font-sans flex justify-center items-center gap-2 text-gray-950 cursor-pointer active:scale-110 whitespace-nowrap"
         >
           <FaCode size={20} />
           Projetos Dev
@@ -82,7 +82,7 @@ export function Introduction() {
         <a
           href="https://jasper-creator-6b9.notion.site/b8fe19a7e4f94754ab9b109fc5089882?v=f0b15c8ca74f4fc49c235d8377e358f1&pvs=4"
           target="_blank"
-          className="text-xl font-sans flex justify-center items-center gap-2 text-gray-950 cursor-pointer active:scale-110"
+          className="text-xl font-sans flex justify-center items-center gap-2 text-gray-950 cursor-pointer active:scale-110 whitespace-nowrap"
         >
           <LuLayoutDashboard size={20} /> Projetos UI/UX
         </a>
