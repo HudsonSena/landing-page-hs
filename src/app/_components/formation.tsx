@@ -29,7 +29,7 @@ export function Formation() {
       className="p-5 flex flex-col gap-5 lg:flex-row lg:py-20 xl:px-36 bg-gray-900 text-gray-200 text-2xl antialiased"
     >
       <div className="lg:w-[36%] flex flex-col gap-5">
-        <h1 className="text-5xl lg:text-9xl w-72 whitespace-break-spaces font-bold lg:mb-14 text-gray-100 lg:hidden">
+        <h1 className="text-4xl lg:text-9xl w-72 whitespace-break-spaces font-bold lg:mb-14 text-gray-100 lg:hidden">
           FORMAÇÃO
         </h1>
         <h1 className="hidden lg:block text-9xl w-72 whitespace-break-spaces font-bold mb-14 text-gray-100">

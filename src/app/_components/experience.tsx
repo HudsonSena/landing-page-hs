@@ -34,7 +34,7 @@ export function Experience() {
       className="p-5 flex flex-col gap-5 lg:flex-row lg:py-20 xl:px-36 bg-gray-100 text-gray-950 text-2xl antialiased"
     >
       <div className="lg:w-[36%] flex flex-col gap-24">
-        <h1 className="text-5xl w-72 whitespace-break-spaces font-bold lg:hidden">
+        <h1 className="text-4xl w-72 whitespace-break-spaces font-bold lg:hidden">
           EXPERIÊNCIA
         </h1>
         <h1 className="hidden lg:block text-9xl w-72 whitespace-break-spaces font-bold">

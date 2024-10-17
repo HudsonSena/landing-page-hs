@@ -13,7 +13,7 @@ export function Contact() {
       className="p-5 flex flex-col gap-5 xl:flex-row lg:py-20 lg:px-36 bg-gray-900 text-gray-100"
     >
       <div className="lg:w-[65%] flex flex-col gap-2">
-        <h1 className="text-5xl whitespace-break-spaces font-bold lg:hidden">
+        <h1 className="text-4xl whitespace-break-spaces font-bold lg:hidden">
           CONTATO
         </h1>
         <h1 className="hidden lg:block text-9xl whitespace-break-spaces font-bold">
