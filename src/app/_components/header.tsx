@@ -28,10 +28,10 @@ export function Header() {
               {" "}
               <LuX size={32} className="text-gray-950" />
             </div>
-            <div className="flex flex-col justify-between text-xl text-gray-950">
-              <a href="#formation">Formação</a>
-              <a href="#experience">Experiência</a>
-              <a href="#contact">Contato</a>
+            <div className="absolute top-32 left-10 flex flex-col gap-5 text-gray-950">
+              <a href="#formation" className='border-b-2' onClick={() => setIsNavOpen(false)}>Formação</a>
+              <a href="#experience" className='border-b-2' onClick={() => setIsNavOpen(false)}>Experiência</a>
+              <a href="#contact" className='border-b-2' onClick={() => setIsNavOpen(false)}>Contato</a>
             </div>
           </div>
         </section>
