@@ -31,10 +31,10 @@ export function Experience() {
   return (
     <div
       id="experience"
-      className="p-5 flex flex-col gap-5 lg:flex-row lg:py-20 xl:px-36 bg-gray-100 text-gray-950 text-2xl antialiased"
+      className="p-5 flex flex-col gap-5 lg:flex-row lg:py-20 xl:px-36 bg-gray-100 text-gray-950 text-2xl max-sm:text-sm antialiased"
     >
       <div className="lg:w-[36%] flex flex-col gap-24">
-        <h1 className="text-4xl w-72 whitespace-break-spaces font-bold lg:hidden">
+        <h1 className="text-4xl w-72 whitespace-break-spaces font-bold lg:hidden max-sm:text-xl">
           EXPERIÊNCIA
         </h1>
         <h1 className="hidden lg:block text-9xl w-72 whitespace-break-spaces font-bold">
@@ -42,7 +42,7 @@ export function Experience() {
         </h1>
       </div>
       <div className="lg:w-[64%] flex flex-col gap-5">
-        <p className="text-3xl">
+        <p className="text-3xl max-sm:text-sm">
           Desenvolvendo projetos com uso das tecnologias{" "}
           <strong>HTML5, CSS3, JavaScript, React.js e Node.js</strong>. E para
           meu portifólio o uso de UX/UI Design com Figma para as aplicações de
@@ -52,7 +52,7 @@ export function Experience() {
           {projects.map((item) => (
             <div
               key={item.name}
-              className="border-b-2 p-2 border-gray-300 flex flex-col gap-2 items-end"
+              className="border-b-2 pt-2 border-gray-300 flex flex-col gap-2 items-end"
             >
               <li className="w-full flex flex-col sm:flex-row gap-3">
                 <p className="text-gray-500 font-semibold text-primary">
@@ -75,7 +75,7 @@ export function Experience() {
                 </div>
               </li>
               <a
-                className="w-fit py-2 px-4 rounded-sm bg-primary text-gray-100"
+                className="w-fit py-2 px-4 mb-1 rounded-sm bg-primary text-gray-100"
                 href={item.url}
                 target="_blank"
               >

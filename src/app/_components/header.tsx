@@ -11,7 +11,7 @@ export function Header() {
       className="flex flex-row items-center justify-between p-5 xl:px-36"
     >
       {" "}
-      <h1 className="font-bold text-xl text-gray-900">Hudson Sena</h1>
+      <h1 className="font-bold text-3xl text-gray-900">Hudson Sena</h1>
       <nav>
         <section className="MOBILE-MENU flex sm:hidden">
           <LuMenu
@@ -28,14 +28,14 @@ export function Header() {
               {" "}
               <LuX size={32} className="text-gray-950" />
             </div>
-            <div className="absolute top-32 left-10 flex flex-col gap-5 text-gray-950">
+            <div className="absolute top-32 left-10 flex flex-col gap-5 text-gray-950 text-xl">
               <a href="#formation" className='border-b-2' onClick={() => setIsNavOpen(false)}>Formação</a>
               <a href="#experience" className='border-b-2' onClick={() => setIsNavOpen(false)}>Experiência</a>
               <a href="#contact" className='border-b-2' onClick={() => setIsNavOpen(false)}>Contato</a>
             </div>
           </div>
         </section>
-        <div className="DESKTOP-MENU hidden space-x-8 sm:flex text-gray-950">
+        <div className="DESKTOP-MENU hidden space-x-8 sm:flex text-gray-950 text-xl">
           <a href="#formation">Formação</a>
           <a href="#experience">Experiência</a>
           <a href="#contact">Contato</a>

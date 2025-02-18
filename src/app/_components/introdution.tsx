@@ -3,7 +3,7 @@ import { LuLayoutDashboard } from "react-icons/lu";
 
 export function Introduction() {
   return (
-    <div className="px-5 flex flex-col gap-1 lg:px-36 lg:py-20">
+    <div className="px-5 flex flex-col gap-10 lg:px-36 lg:py-10">
       <div className="flex flex-col items-center justify-center gap-3 lg:gap-10 sm:flex-row">
         <img
           className="w-[240px] h-[240px] object-contain rounded-[50%] shadow-lg"
@@ -55,11 +55,11 @@ export function Introduction() {
           </defs>
         </svg>
       </div>
-      <nav className="flex flex-col p-5 items-start gap-2 sm:flex-row lg:gap-24 sm:items-center lg:justify-center">
+      <nav className="flex flex-row p-5 items-start gap-2 lg:gap-24 sm:items-center lg:justify-center max-sm:justify-between">
         <a
           href="https://github.com/HudsonSena"
           target="_blank"
-          className="text-xl font-sans flex justify-center items-center gap-2 text-gray-950 cursor-pointer active:scale-110 whitespace-nowrap"
+          className="text-xl font-sans flex justify-center items-center gap-2 text-gray-950 cursor-pointer active:scale-110 whitespace-nowrap max-sm:text-sm"
         >
           <FaGithub size={20} />
           Github
@@ -67,14 +67,14 @@ export function Introduction() {
         <a
           href="https://www.linkedin.com/in/hudson-sena-890a72173/"
           target="_blank"
-          className="text-xl font-sans flex justify-center items-center gap-2 text-gray-950 cursor-pointer active:scale-110 whitespace-nowrap"
+          className="text-xl font-sans flex justify-center items-center gap-2 text-gray-950 cursor-pointer active:scale-110 whitespace-nowrap max-sm:text-sm"
         >
           <FaLinkedin size={20} /> LinkedIn
         </a>
         <a
           href="https://jasper-creator-6b9.notion.site/b8fe19a7e4f94754ab9b109fc5089882?v=f0b15c8ca74f4fc49c235d8377e358f1&pvs=4"
           target="_blank"
-          className="text-xl font-sans flex justify-center items-center gap-2 text-gray-950 cursor-pointer active:scale-110 whitespace-nowrap"
+          className="text-xl font-sans flex justify-center items-center gap-2 text-gray-950 cursor-pointer active:scale-110 whitespace-nowrap max-sm:text-sm"
         >
           <FaCode size={20} />
           Projetos Dev
@@ -82,7 +82,7 @@ export function Introduction() {
         <a
           href="https://jasper-creator-6b9.notion.site/b8fe19a7e4f94754ab9b109fc5089882?v=f0b15c8ca74f4fc49c235d8377e358f1&pvs=4"
           target="_blank"
-          className="text-xl font-sans flex justify-center items-center gap-2 text-gray-950 cursor-pointer active:scale-110 whitespace-nowrap"
+          className="text-xl font-sans flex justify-center items-center gap-2 text-gray-950 cursor-pointer active:scale-110 whitespace-nowrap max-sm:text-sm"
         >
           <LuLayoutDashboard size={20} /> Projetos UI/UX
         </a>

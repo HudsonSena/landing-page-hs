@@ -26,10 +26,10 @@ export function Formation() {
   return (
     <div
       id="formation"
-      className="p-5 flex flex-col gap-5 lg:flex-row lg:py-20 xl:px-36 bg-gray-900 text-gray-200 text-2xl antialiased"
+      className="p-5 flex flex-col gap-5 lg:flex-row lg:py-20 xl:px-36 bg-gray-900 text-gray-200 text-2xl max-sm:text-sm antialiased"
     >
       <div className="lg:w-[36%] flex flex-col gap-5">
-        <h1 className="text-4xl lg:text-9xl w-72 whitespace-break-spaces font-bold lg:mb-14 text-gray-100 lg:hidden">
+        <h1 className="text-4xl lg:text-9xl w-72 whitespace-break-spaces font-bold lg:mb-14 text-gray-100 lg:hidden max-sm:text-xl">
           FORMAÇÃO
         </h1>
         <h1 className="hidden lg:block text-9xl w-72 whitespace-break-spaces font-bold mb-14 text-gray-100">
@@ -49,16 +49,16 @@ export function Formation() {
                 fill="#E17E0D"
               />
             </svg>
-            <h2 className="text-gray-500 text-2xl">Tecnologias Dev</h2>
+            <h2 className="text-gray-500 text-2xl max-sm:text-xl">Tecnologias Dev</h2>
           </div>
 
           <div className="flex flex-row gap-5">
-            <ul>
+            <ul className="max-sm:flex-row max-sm:justify-between">
               {skills.map((item) => (
                 <li key={item}> {item}</li>
               ))}
             </ul>
-            <ul>
+            <ul className="max-sm:flex-row max-sm:justify-between">
               {skills2.map((item) => (
                 <li key={item}> {item}</li>
               ))}
@@ -67,9 +67,9 @@ export function Formation() {
         </div>
       </div>
       <div className="lg:w-[64%] flex flex-col gap-6">
-        <p className="text-3xl text-gray-300">
+        <p className="text-3xl text-gray-300 max-sm:text-sm">
           Minha formação mais recente é de{" "}
-          <strong className="text-white">
+          <strong className="text-white max-sm:font-normal">
             Bacharelado em Engenharia de Software
           </strong>
           , que atualmente estou cursando na Universidade Estácio.
@@ -100,7 +100,7 @@ export function Formation() {
                 fill="#E17E0D"
               />
             </svg>
-            <h2 className="text-gray-500 text-2xl">Curso intensivos</h2>
+            <h2 className="text-gray-500 text-2xl max-sm:text-xl">Curso intensivos</h2>
           </div>
           <ul className="flex flex-col gap-2">
             <li className="flex justify-between">
@@ -131,7 +131,7 @@ export function Formation() {
                 fill="#E17E0D"
               />
             </svg>
-            <h2 className="text-gray-500 text-2xl">Idiomas</h2>
+            <h2 className="text-gray-500 text-2xl max-sm:text-xl">Idiomas</h2>
           </div>
           <ul className="flex flex-col gap-2">
             <li>Português Nativo</li>
