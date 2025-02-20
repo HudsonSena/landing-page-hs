@@ -55,8 +55,8 @@ export function Introduction() {
           </defs>
         </svg>
       </div>
-      <nav className="flex flex-row max-sm:flex-col p-5 items-center gap-2">
-        <div className="flex flex-row items-center gap-2 lg:gap-24 sm:items-center lg:justify-center max-sm:justify-between">
+      <nav className="flex flex-row max-sm:flex-col p-5 items-center justify-center gap-2">
+        <div className="flex flex-row items-center gap-2 lg:gap-10 sm:items-center justify-center max-sm:justify-between">
           <a
             href="https://github.com/HudsonSena"
             target="_blank"
@@ -73,7 +73,7 @@ export function Introduction() {
             <FaLinkedin size={20} /> LinkedIn
           </a>
         </div>
-        <div className="flex flex-row p-5 items-center gap-2 lg:gap-24 sm:items-center lg:justify-center max-sm:justify-between">
+        <div className="flex flex-row p-5 items-center gap-2 lg:gap-10 sm:items-center lg:justify-center max-sm:justify-between">
           <a
             href="https://jasper-creator-6b9.notion.site/b8fe19a7e4f94754ab9b109fc5089882?v=f0b15c8ca74f4fc49c235d8377e358f1&pvs=4"
             target="_blank"
@@ -90,8 +90,6 @@ export function Introduction() {
             <LuLayoutDashboard size={20} /> Projetos UI/UX
           </a>
         </div>
-
-
       </nav>
     </div>
   );
