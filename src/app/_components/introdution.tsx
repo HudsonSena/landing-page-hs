@@ -12,7 +12,7 @@ export function Introduction() {
         />
 
         <div className="flex flex-col gap-2 font-sans text-gray-950">
-          <h1 className="font-semibold text-xl lg:text-7xl sm:w-[510px] xl:w-[720px]">
+          <h1 className="font-semibold text-xl max-w-[640px] lg:text-7xl sm:w-[510px] xl:w-[720px]">
             Desenvolvedor Front End & UX/UI Designer
           </h1>
           <p>Localizado no Rio Grande do Norte</p>

@@ -44,9 +44,10 @@ export function Experience() {
       <div className="lg:w-[64%] flex flex-col gap-5">
         <p className="text-3xl max-sm:text-sm">
           Desenvolvendo projetos com uso das tecnologias{" "}
-          <strong>HTML5, CSS3, JavaScript, React.js e Node.js</strong>. E para
-          meu portifólio o uso de UX/UI Design com Figma para as aplicações de
-          amostra.
+          <strong>HTML5, CSS3, JavaScript, React.js, Next.js e Node.js</strong>. Para o desenvolvimento de UX/UI Design, é com Figma.
+        </p>
+        <p className="text-3xl max-sm:text-sm">
+          Além disso, trabalho também com uso de plataformas como: <strong>Wordpress, Loja Integrada e Shopfy</strong> . Na construção de funcionalidades e design.
         </p>
         <ul className="flex flex-col gap-3">
           {projects.map((item) => (
