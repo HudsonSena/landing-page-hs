@@ -72,9 +72,10 @@ export function Formation() {
         <p className="text-3xl text-gray-300 max-sm:text-sm">
           Minha formação mais recente é de{" "}
           <strong className="text-white max-sm:font-normal">
-            Bacharelado em Engenharia de Software
+            Bacharelado em Tecnologia da Informação
           </strong>
-          , que atualmente estou cursando na Universidade Estácio.
+          , que atualmente estou cursando na Universidade Federeal Rural do
+          Semi-Árido.
         </p>
         <div className="flex flex-col lg:flex-row gap-2">
           {formations.map((item) => (
