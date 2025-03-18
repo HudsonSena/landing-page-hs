@@ -19,8 +19,8 @@ export function Formation() {
     },
     {
       level: "Bacharelado",
-      title: "Engenharia de Software",
-      university: "Estácio",
+      title: "Tecnologia da Informação",
+      university: "UFERSA",
     },
   ];
   return (
@@ -49,7 +49,9 @@ export function Formation() {
                 fill="#E17E0D"
               />
             </svg>
-            <h2 className="text-gray-500 text-2xl max-sm:text-xl">Tecnologias Dev</h2>
+            <h2 className="text-gray-500 text-2xl max-sm:text-xl">
+              Tecnologias Dev
+            </h2>
           </div>
 
           <div className="flex flex-row gap-5">
@@ -100,7 +102,9 @@ export function Formation() {
                 fill="#E17E0D"
               />
             </svg>
-            <h2 className="text-gray-500 text-2xl max-sm:text-xl">Curso intensivos</h2>
+            <h2 className="text-gray-500 text-2xl max-sm:text-xl">
+              Curso intensivos
+            </h2>
           </div>
           <ul className="flex flex-col gap-2">
             <li className="flex justify-between">
